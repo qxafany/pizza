@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins&family=Raleway:wght@100;500&family=Roboto:wght@100;400&family=Young+Serif&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.first-container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 889px;
+    background: url(./img/pizza.png), lightgray -960px 0px / 170% 100% no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+.first-container p {
+    color: #FFF;
+}
+
+nav {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1440px;
+    display: flex;
+    color: white;
+    gap: 44px;
+}
+
+.name {
+    position: relative;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 18px;
+    top: 20px;
+    left: 121px;
+    letter-spacing: 0.3px;
+}
+
+.nav-link,
+.download-app {
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    right: 143px;
+    top: 19px;
+}
+
+.download-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209px;
+    height: 48px;
+    flex-shrink: 0;
+    background: var(--yeallow-brand-color, #FC0);
+    bottom: 10px;
+    right: 120px;
+}
+
+[menu] {
+    position: relative;
+    right: 140px;
+}
+
+[offer] {
+    position: relative;
+    right: 140px;
+}
+
+[about] {
+    position: relative;
+    right: 135px;
+}
+
+[contact] {
+    position: relative;
+    right: 130px;
+}
+
+.price {
+    letter-spacing: 1px;
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 70px;
+    left: 50px;
+    top: 3px;
+}
+
+.pizza-italian {
+    letter-spacing: 1.5px;
+    position: relative;
+    font-weight: 600;
+    font-size: 64px;
+    bottom: 43px;
+    left: 120px;
+}
+
+.sale-order {
+    display: flex;
+}
+
+.ellipse {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    bottom: 65px;
+}
+
+.ellipse img {
+    width: 205px;
+    height: 205px;
+    flex-shrink: 0;
+}
+
+.discount {
+    letter-spacing: 0.5px;
+    position: relative;
+    width: 180px;
+    font-size: 30px;
+    font-weight: 700;
+    bottom: 360px;
+    left: 25px;
+}
+
+.sale {
+    letter-spacing: 3px;
+    position: relative;
+    font-size: 63px;
+    font-weight: 700;
+    bottom: 255px;
+    left: 46px;
+}
+
+.order-info {
+    position: relative;
+    width: 324px;
+    font-weight: 600;
+    font-size: 36px;
+    bottom: 590px;
+    left: 233px;
+    letter-spacing: 0.4px;
+    line-height: 58px;
+}
+
+.order-online {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 48px;
+    flex-shrink: 0;
+    background: var(--yeallow-brand-color, #FC0);
+    top: 230px;
+    right: 203px;
+    letter-spacing: 1px;
+}
+
+.top-foods {
+    position: relative;
+    color: var(--yeallow-brand-color, #FC0);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -50px;
+
+}
+
+.categories {
+    position: absolute;
+    font-weight: 600;
+    font-size: 55px;
+}
+
