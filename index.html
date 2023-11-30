@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>FOODMOOD</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="first-container">
-        <nav>
-          <p class="name">FOODMOOD</p>
-          <p class="nav-link">HOME</p>
-          <p class="nav-link" menu>OUR MENU</p>
-          <p class="nav-link" offer>OFFER</p>
-          <p class="nav-link" about>ABOUT</p>
-          <p class="nav-link" contact>CONTACT</p>
-          <p class="download-app">DOWNLOAD APP</p>
-        </nav>
-        <div class="order">
-          <p class="price">Only $15.00</p>
-          <p class="pizza-italian">AUTHENTIC ITALIAN PIZZA</p>
-          <div class="sale-order">
-            <div class="ellipse">
-                <img src="./img/ellipse.svg" alt="">
-              <p class="sale">20%</p>
-              <p class="discount">DISCOUNT</p>
-              <p class="order-info">
-                On your first order, if you order online through our App!
-              </p>
-            </div>
-            <div class="order-online">
-              <p>ORDER ONLINE</p>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>foodmood</title>
+</head>
+
+<body>
+    <header>
+        <div class="text-block">
+            <p>FOODMOOD</p>
+            <ul class="first-list"><a href="">HOME</a></ul>
+            <ul class="first-list"><a href="">OUR MENU</a></ul>
+            <ul class="first-list"><a href="">OFFER</a></ul>
+            <ul class="first-list"><a href="">ABOUT</a></ul>
+            <ul class="first-list"><a href="">CONTACT</a></ul>
+            <button>DOWNLOAD APP</button>
         </div>
-      </div>
-      <div class="second-container">
-        <div class="header-text">
-          <p class="top-foods">TOP FOODS</p>
-          <p class="categories">Our Categories</p>
+        <div class="cash">
+            <p>Only $15.00</p>
+            <h1>AUTHENTIC ITALIAN PIZZA</h1>
+            <div class="circle-order">
+                <div class="circle">
+                    <h1 class="cash-text">20%</h1>
+                    <h1 class="cash-text">DISCOUNT</h1>
+                </div>
+                <h2 class="first-order">On your first order, if you order online through our App!</h2>
+            </div>
+            <button class="cash-button">ORDER ONLINE</button>
         </div>
-    </body>
+    </header>
+    <div class="white-block"></div>
+    <main class="top-food">
+        <div class="text-food">
+            <h1 class="top-text">TOP FOODS</h1>
+            <h1 class="top-text-sec">Our Categories</h1>
+        </div>
+        <div class="card-food">
+            <div class="card">
+                <h1 class="card-text">Pizza</h1>
+                <h1 class="card-text-sec">20 Restaurants Foods</h1>
+            </div>
+            <div class="card">
+                <h1 class="card-text">Pasta</h1>
+                <h1 class="card-text-sec">15 Restaurants Foods</h1>
+            </div>
+            <div class="card">
+                <h1 class="card-text">Shakes</h1>
+                <h1 class="card-text-sec">20 Restaurants Foods</h1>
+            </div>
+            <div class="card">
+                <h1 class="card-text">Burger</h1>
+                <h1 class="card-text-sec">25 Restaurants Foods</h1>
+            </div>
+        </div>
+    </main>
+    <main class="order">
+        <div class="order-card">
+            <img src="./img/icon1.jpg" alt="">
+            <h1 class="order-card-text">Free Shipping on</h1>
+            <h1 class="order-card-text-sec">First Order</h1>
+            <h1 class="order-card-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h1>
+        </div>
+        <div class="order-card">
+                <img src="./img/icon2.jpg" alt="">
+                <h1 class="order-card-text">Variety of</h1>
+                <h1 class="order-card-text-sec">Dishes</h1>
+                <h1 class="order-card-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                </h1>
+        </div>
+        <div class="order-card">
+            <img src="./img/icon3.jpg" alt="">
+            <h1 class="order-card-text">Thirty Minutes</h1>
+            <h1 class="order-card-text-sec">Delivery</h1>
+            <h1 class="order-card-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </h1>
+    </div>
+    </main>
+    <main class="outlets">
+        <div class="outlets-text">
+            <h1 class="outlets-text-first">OUR OUTLETS</h1>
+            <h1 class="outlets-text-sec">Find an Outlet Near You</h1>
+        </div>
+        <div class="outlets-card">
+            <div class="otlcrd">
+                <img src="./img/background3.jpg" alt="">
+                  <h1 class="text-otlcrd">762 Fulton St San Francisco, California(CA), 94102</h1>
+            </div>
+            <div class="otlcrd">
+                <img src="./img/background2.jpg" alt="">
+                  <h1 class="text-otlcrd">66 Ceres St San Francisco, California(CA), 94124</h1>
+            </div>
+            <div class="otlcrd">
+                <img src="./img/background1.png" alt="">
+                  <h1 class="text-otlcrd">766 Sutter St San Francisco, California(CA), 94109</h1>
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>
